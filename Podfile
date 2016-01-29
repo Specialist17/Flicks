@@ -7,5 +7,6 @@ target 'Flicks' do
     
 pod 'AFNetworking', '~> 3.0'
 pod 'MBProgressHUD', '~> 0.9.2'
+pod 'SwiftyJSON', '~> 2.3'
 
 end
