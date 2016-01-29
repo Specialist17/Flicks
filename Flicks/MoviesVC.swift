@@ -103,14 +103,10 @@ class MoviesVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
                                 
                                 self.movies = responseDictionary["results"] as? [NSDictionary]
                                 self.movieTable.reloadData()
-                                
                                 self.refreshControl.endRefreshing()
-                                
                         }
                     }
             });
             task.resume()
-        
     }
-    
 }
